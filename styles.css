@@ -1,62 +1,8 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f9f9f9;
-    color: #333;
+h1{
+	background-color:lightpink
 }
-
-/* Size chart container */
-.size-chart-container {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
+	
 }
-
-/* Heading styling */
-.size-chart-container h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color:deeppink
-}
-
-/* Table styling */
-.size-chart {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 0 auto;
-    background-color: #fff;
-    border: 1px solid #ddd;
-}
-
-/* Header row styling */
-.size-chart thead th {
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-}
-
-/* Data rows styling */
-.size-chart tbody td {
-    padding: 10px;
-    font-size: 14px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
-
-/* Alternating row colors for better readability */
-.size-chart tbody tr:nth-child(odd) {
-    background-color: #f9f9f9;
-}
-
-.size-chart tbody tr:nth-child(even) {
-    background-color: #fff;
-}
-
-
-    .size-chart {
-        font-size: 12px;
-    }
+tr{
+	background-color:lightblue
 }

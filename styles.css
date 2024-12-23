@@ -1,8 +1,27 @@
-h1{
-	background-color:lightpink
+
+
+table.size-chart {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
 }
-	
+
+table.size-chart thead th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+    text-align: left ;
+    padding: 10px;
+    border: 1px solid #ddd;
 }
-tr{
-	background-color:lightblue
+
+table.size-chart tbody td {
+    text-align: right;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Alternate row color */
+table.size-chart tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
 }
